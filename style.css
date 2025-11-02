@@ -1,0 +1,108 @@
+a {
+    text-decoration: none;
+    font-family: monospace;
+}
+
+h1 {
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 60px;
+    margin: 0;
+}
+
+a:link {
+    text-decoration: underline;
+    color: lightcoral;
+    background-color: transparent;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+}
+
+a:hover {
+    color: lightcoral;
+    background-color: transparent;
+}
+
+a:active {
+    color: lightcoral;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    color: grey;
+    text-align: left;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 65%;
+    margin: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+table {
+    text-align: left;
+    color: grey;
+    margin: 0;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+h4 {
+    line-height: 0;
+    text-align: left;
+    color: white;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+.row { display: flex; }
+
+.repeat {
+    flex-grow: 1;
+    border-bottom: 1.5px dashed lightcoral;
+    margin: 0 1px 1px;
+}
+
+.repeato {
+    flex-grow: 1;
+    border-bottom: 1.5px dashed lightgreen;
+    margin: 0 1px 1px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+b {
+    color: white;
+}
+
+span {
+    color: lightgreen;
+}
